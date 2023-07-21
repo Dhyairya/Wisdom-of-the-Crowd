@@ -1,10 +1,12 @@
 
 body {
-    font-family:  Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 
 header {
     background-color: #000000ab;
