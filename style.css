@@ -1,0 +1,151 @@
+
+body {
+    font-family:  Century Gothic, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #000000ab;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+.background{
+    position: relative;
+}
+
+.background img{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+main {
+    padding: 20px;
+}
+
+
+.guess-form h2,
+.data-visualization h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    position: fixed;
+    bottom: 0 !important;
+    background-color: #000000ab;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+ h2 {
+    text-align: center;
+    color: #343434;
+}
+#thankYouMessage {
+    display: none;
+}
+
+p {
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+/* Styling for the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.614);
+}
+
+
+.formdiv{
+    position: absolute;
+    background-color: #ffffffab;
+    border-radius: 6%;
+    padding: 35px;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    header{
+        font-size: 10px;
+    }
+
+  }
+  
